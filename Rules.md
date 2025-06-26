@@ -46,12 +46,12 @@
 
 ## Terrain
 
-1. Players should agree during setup what type each piece of terrain represents.
-1.1 **Open:** Normal movement.
-1.1 **Road:** Double movement distance when moving entirely along a road.
-1.1 **Rough:** Half movement distance.
-1.1 **Obstacle:** Costs one full movement to cross, regardless of distance.
-1.1 **Impassable:** Cannot be entered or crossed.
+1. Players should agree during setup what type each piece of terrain represents.  
+1.1 **Open:** Normal movement.  
+1.1 **Road:** Double movement distance when moving entirely along a road.  
+1.1 **Rough:** Half movement distance.  
+1.1 **Obstacle:** Costs one full movement to cross, regardless of distance.  
+1.1 **Impassable:** Cannot be entered or crossed.  
 
 ---
 
