@@ -1,25 +1,26 @@
-# IRON PUSH  
+# My Wargame Rules
 *A Minimalist Mass Battle Wargame*
 
 ---
 
 ## 1. CORE CONCEPT  
-1.1 A fast-playing wargame for large-scale ancient to horse-and-musket battles.  
+1.1 A fast-playing wargame for massed battles, focusing on unit cohesion and positioning rather than individual model hit points.
 1.2 Units degrade via cohesion (not hit points) through combat, morale shocks, and positioning.  
-1.3 Inspired by Blood Bowl and Strength & Honour.  
+1.3 Inspired by the tactical depth of BloodBowl's positioning and blocking mechanics, but applied to massed battles.
 1.4 The system works with any base size, provided both sides use the same frontage.  
 1.5 All distances are measured in **base widths**.
 
 ---
 
 ## 2. UNIT STATES  
-2.1 Each unit has four cohesion states: **Fresh → Shaken → Disrupted → Destroyed**  
+2.1 Each unit has four cohesion states:
+**<span style="color:green">Fresh</span> → <span style="color:goldenrod">Shaken</span> → <span style="color:orange">Disrupted</span> → <span style="color:red">Destroyed</span>**
 2.2 **Fresh**: Full combat effectiveness.  
 2.3 **Shaken**: May act but suffers minor penalties.  
 2.4 **Disrupted**: Severely impaired.  
 2.5 **Destroyed**: Removed from battlefield.  
 2.6 Units degrade one state when they take a *hit*.  
-2.7 Use tokens, markers, or dials to track unit states.
+2.7 Use tokens, markers, dice, or dials to track unit states.
 
 ---
 
