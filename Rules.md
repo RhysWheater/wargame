@@ -7,7 +7,6 @@
 1. A fast-playing wargame for massed battles, focusing on unit cohesion and positioning rather than individual model hit points.
 1. Designed for quick, decisive games that reward clever positioning and cohesion management.
 1. Units degrade via cohesion (not hit points) through combat, morale shocks, and positioning.  
-1. Inspired by the tactical depth of BloodBowl's positioning, blocking and dodging mechanics, but applied to massed battles.
 1. The system works with any scale or base size, provided both sides use the same base width.
 1. All distances are measured in **base widths**.
 
@@ -15,28 +14,27 @@
 
 ## UNIT STATES  
 1. Each unit has four cohesion states:  
-   **<font color="red">Fresh</font> → <font color="goldenrod">Shaken</font> → <font color="orange">Disrupted</font> → <font color="red">Destroyed</font>**
-1. **<font color="green">Fresh</font>**: Full combat effectiveness.
-1. **<font color="goldenrod">Shaken</font>**: May act but suffers minor penalties.
-1. **<font color="orange">Disrupted</font>**: Severely impaired.
-1. **<font color="red">Destroyed</font>**: Removed from battlefield.
+   **Fresh → Shaken → Disrupted → Destroyed**
+1. **Fresh**: Full combat effectiveness.
+1. **Shaken**: May act but suffers minor penalties.
+1. **Disrupted**: Severely impaired.
+1. **Destroyed**: Removed from battlefield.
 1. Units degrade one state when they take a *hit*.  
 1. Use tokens, markers, dice, or dials to track unit states.
 
 ---
 
 ## TURN STRUCTURE  
-1. Players alternate **activating one unit at a time** until all units have acted.  
-1. Each activated unit may perform one of the following:  
-   1. **Move**  
-   1. **Attack** (if engaged)  
-   1. **Fall Back** (see 8)  
-   1. **Rally** (see 9; if Shaken or Disrupted, and not engaged)
+1. On each player's turn, they may activate each of their units once, in any order.
+1. When a unit is activated, it may perform one of the following actions:
+    1. **Move**: Move up to its movement distance.
+    1. **Attack**: Engage in combat if in front-edge contact with an enemy unit.
+    1. **Rally**: Attempt to recover cohesion state (see 9; if Shaken or Disrupted, and not engaged).
 
 ---
 
 ## MOVEMENT  
-1. Units move a standard distance of **1 base width** (unless terrain modifies it).  
+1. Units may move freely any distance up to a maximum of their move stat x base width.  
 1. Units may pivot freely before or after movement.  
 1. Units may not move through or end movement inside enemy units.
 1. Units may not end movement inside friendly units.
