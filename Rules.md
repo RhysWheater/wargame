@@ -20,7 +20,7 @@
 1. **Disrupted**: Severely impaired.
 1. **Destroyed**: Removed from battlefield.
 1. Units degrade one state when they take a *hit*.  
-1. Use tokens, markers, dice, or dials to track unit states.
+1. Use tokens, markers, dice, or whatever method you prefer to track unit states.
 
 ---
 
@@ -29,7 +29,7 @@
 1. When a unit is activated, it may perform one of the following actions:
     1. **Move**: Move up to its movement distance.
     1. **Attack**: Resolve combat if in front-edge contact with an enemy unit.
-    1. **Rally**: Attempt to recover cohesion state (see 9; if Shaken or Disrupted, and not engaged).
+    1. **Rally**: Attempt to recover cohesion state if not in base contact with an enemy unit.
 
 ---
 
@@ -44,7 +44,6 @@
 ---
 
 ## Terrain
-
 1. Players should agree during setup what type each piece of terrain represents.  
     1. **Open:** Normal movement.  
     1. **Road:** Double movement distance when moving entirely along a road.  
@@ -69,7 +68,6 @@
 ---
 
 ## COMBAT
-
 1. When two units are in melee, compare their **Resolve** (base + modifiers).
 1. **Roll Dice**:  
    1. If Resolve is equal: attacker rolls 1D6 and uses the result.
@@ -88,9 +86,9 @@
 1. Pushbacks must move directly away 1 base width.
 1. If a unit is pushed back into another friendly unit, and it is not a skirmisher, the other unit is also pushed back the same distance.
 1. If a unit is pushed back into an enemy unit, or into impassable, obstacle or rough terrain, or off the table, it is **destroyed**.
+1. The attacking unit may choose to **pursue** after a push back, moving up to 1 base width straight ahead.  
 
 ### Resolve Modifiers
-
 1. **Cohesion State:**
    1. Fresh: no modifier
    1. Shaken: −1 Resolve
@@ -100,7 +98,6 @@
 1. **Rear Attack:** +2 Resolve for attacker
 
 ## RALLY
-
 1.  A unit may attempt to Rally if it is **Shaken** or **Disrupted**.
 1.  To Rally, roll 1D6. If the result is **less than the unit's Resolve** (after modifiers), the unit recovers one cohesion state (**Disrupted → Shaken → Fresh**).
 1.  **Modifiers to Resolve for Rally attempts:**
