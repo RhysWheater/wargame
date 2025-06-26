@@ -15,11 +15,11 @@
 
 ## 2. UNIT STATES  
 1. Each unit has four cohesion states:  
-   **<span style="color:green">Fresh</span> → <span style="color:goldenrod">Shaken</span> → <span style="color:orange">Disrupted</span> → <span style="color:red">Destroyed</span>**
-1. **<span style="color:green">Fresh</span>**: Full combat effectiveness.  
-1. **<span style="color:goldenrod">Shaken</span>**: May act but suffers minor penalties.  
-1. **<span style="color:orange">Disrupted</span>**: Severely impaired.  
-1. **<span style="color:red">Destroyed</span>**: Removed from battlefield.  
+   **<font color="red">Fresh</font> → <font color="goldenrod">Shaken</font> → <font color="orange">Disrupted</font> → <font color="red">Destroyed</font>**
+1. **<font color="green">Fresh</font>**: Full combat effectiveness.
+1. **<font color="goldenrod">Shaken</font>**: May act but suffers minor penalties.
+1. **<font color="orange">Disrupted</font>**: Severely impaired.
+1. **<font color="red">Destroyed</font>**: Removed from battlefield.
 1. Units degrade one state when they take a *hit*.  
 1. Use tokens, markers, dice, or dials to track unit states.
 
