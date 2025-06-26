@@ -44,6 +44,17 @@
 
 ---
 
+## Terrain
+
+1. Players should agree during setup what type each piece of terrain represents.
+1.1 **Open:** Normal movement.
+1.1 **Road:** Double movement distance when moving entirely along a road.
+1.1 **Rough:** Half movement distance.
+1.1 **Obstacle:** Costs one full movement to cross, regardless of distance.
+1.1 **Impassable:** Cannot be entered or crossed.
+
+---
+
 ## SUPPORT  
 1. In melee, a unit gains **+1 Resolve** for each **supporting friendly unit**:  
    - **Side support**: Base to base contact on either side, facing the same direction.
@@ -77,14 +88,14 @@
 
 1. Pushbacks must move directly away 1 base width.
 1. If a unit is pushed back into another friendly unit, and it is not a skirmisher, the other unit is also pushed back the same distance.
-1. If a unit is pushed back into an enemy unit, or into impassable or rough terrain, or off the table, it is **destroyed**.
+1. If a unit is pushed back into an enemy unit, or into impassable, obstacle or rough terrain, or off the table, it is **destroyed**.
 
 ### Resolve Modifiers
 
 1. **Cohesion State:**
-   - Fresh: no modifier
-   - Shaken: −1 Resolve
-   - Disrupted: −2 Resolve
+   1. Fresh: no modifier
+   1. Shaken: −1 Resolve
+   1. Disrupted: −2 Resolve
 1. **Support:** +1 Resolve per supporting friendly unit (side or rear)
 1. **Flank Attack:** +1 Resolve for attacker
 1. **Rear Attack:** +2 Resolve for attacker
