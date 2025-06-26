@@ -7,7 +7,7 @@
 1. A fast-playing wargame for massed battles, focusing on unit cohesion and positioning rather than individual model hit points.
 1. Designed for quick, decisive games that reward clever positioning and cohesion management.
 1. Units degrade via cohesion (not hit points) through combat, morale shocks, and positioning.  
-1. The system works with any scale or base size, provided both sides use the same base width.
+1. The system works with any scale or base size, provided both sides use the same **base width**.
 1. All distances are measured in **base widths**.
 
 ---
@@ -28,17 +28,18 @@
 1. On each player's turn, they may activate each of their units once, in any order.
 1. When a unit is activated, it may perform one of the following actions:
     1. **Move**: Move up to its movement distance.
-    1. **Attack**: Engage in combat if in front-edge contact with an enemy unit.
+    1. **Attack**: Resolve combat if in front-edge contact with an enemy unit.
     1. **Rally**: Attempt to recover cohesion state (see 9; if Shaken or Disrupted, and not engaged).
 
 ---
 
 ## MOVEMENT  
-1. Units may move freely any distance up to a maximum of their move stat x base width.  
+1. Units may move freely any distance up to a maximum of their **movement** x **base width**.  
 1. Units may pivot freely before or after movement.  
 1. Units may not move through or end movement inside enemy units.
 1. Units may not end movement inside friendly units.
 1. Units may not move through friendly units unless they have the **Skirmisher** trait.
+1. A unit in base to base contact with an enemy unit may only move straight back, pivoting only at the end of the move.
 
 ---
 
@@ -97,3 +98,12 @@
 1. **Support:** +1 Resolve per supporting friendly unit (side or rear)
 1. **Flank Attack:** +1 Resolve for attacker
 1. **Rear Attack:** +2 Resolve for attacker
+
+## RALLY
+
+1.  A unit may attempt to Rally if it is **Shaken** or **Disrupted**.
+1.  To Rally, roll 1D6. If the result is **less than the unit's Resolve** (after modifiers), the unit recovers one cohesion state (**Disrupted → Shaken → Fresh**).
+1.  **Modifiers to Resolve for Rally attempts:**
+  1.  **Cohesion State:** Shaken (−1 Resolve), Disrupted (−2 Resolve)
+  1.  **Support:** +1 Resolve if supported by a friendly unit (side or rear)
+1.  A unit cannot Rally if it is in edge contact with an enemy unit.
