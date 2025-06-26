@@ -3,7 +3,7 @@
 
 ---
 
-## 1. CORE CONCEPT  
+## CORE CONCEPT  
 1. A fast-playing wargame for massed battles, focusing on unit cohesion and positioning rather than individual model hit points.
 1. Designed for quick, decisive games that reward clever positioning and cohesion management.
 1. Units degrade via cohesion (not hit points) through combat, morale shocks, and positioning.  
@@ -13,7 +13,7 @@
 
 ---
 
-## 2. UNIT STATES  
+## UNIT STATES  
 1. Each unit has four cohesion states:  
    **<font color="red">Fresh</font> → <font color="goldenrod">Shaken</font> → <font color="orange">Disrupted</font> → <font color="red">Destroyed</font>**
 1. **<font color="green">Fresh</font>**: Full combat effectiveness.
@@ -25,7 +25,7 @@
 
 ---
 
-## 3. TURN STRUCTURE  
+## TURN STRUCTURE  
 1. Players alternate **activating one unit at a time** until all units have acted.  
 1. Each activated unit may perform one of the following:  
    1. **Move**  
@@ -35,7 +35,7 @@
 
 ---
 
-## 4. MOVEMENT  
+## MOVEMENT  
 1. Units move a standard distance of **1 base width** (unless terrain modifies it).  
 1. Units may pivot freely before or after movement.  
 1. Units may not move through or end movement inside enemy units.
@@ -44,21 +44,21 @@
 
 ---
 
-## 5. SUPPORT  
+## SUPPORT  
 1. In melee, a unit gains **+1 Resolve** for each **supporting friendly unit**:  
    - **Side support**: Base to base contact on either side, facing the same direction.
    - **Rear support**: Directly behind and not engaged.  
 
 ---
 
-## 6. FACING  
+## FACING  
 1. **Flank attacks** grant +1 Resolve.  
 1. **Rear attacks** grant +2 Resolve.  
 1. Defending units gain **no support** if attacked from flank or rear.
 
 ---
 
-## 7. COMBAT
+## COMBAT
 
 1. When two units are in melee, compare their **Resolve** (base + modifiers).
 1. **Roll Dice**:  
@@ -79,7 +79,7 @@
 1. If a unit is pushed back into another friendly unit, and it is not a skirmisher, the other unit is also pushed back the same distance.
 1. If a unit is pushed back into an enemy unit, or into impassable or rough terrain, or off the table, it is **destroyed**.
 
-### 7.1 Resolve Modifiers
+### Resolve Modifiers
 
 1. **Cohesion State:**
    - Fresh: no modifier
