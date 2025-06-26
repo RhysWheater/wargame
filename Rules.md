@@ -62,9 +62,9 @@
 
 1. When two units are in melee, compare their **Resolve** (base + modifiers).
 1. **Roll Dice**:  
-   - If Resolve is equal: attacker rolls 1D6 and uses the result.
-   - If attacker has higher Resolve: attacker rolls 2D6, picks their preferred result.
-   - If defender has higher Resolve: defender rolls 2D6, picks their preferred result.
+   1. If Resolve is equal: attacker rolls 1D6 and uses the result.
+   1. If attacker has higher Resolve: attacker rolls 2D6, picks their preferred result.
+   1. If defender has higher Resolve: defender rolls 2D6, picks their preferred result.
 1. **Combat Result Table:**
 
    | Roll | Result       | Effect                                  |
