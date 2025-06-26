@@ -58,62 +58,33 @@
 
 ---
 
-## 7. COMBAT RESOLUTION  
-1. **Compare Resolve**: (base + support + modifiers).  
+## 7. COMBAT
+
+1. When two units are in melee, compare their **Resolve** (base + modifiers).
 1. **Roll Dice**:  
-   - If equal: attacker rolls 1D6 and picks result.  
-   - If attacker has higher Resolve: attacker rolls 2D6, picks best.  
-   - If defender has higher Resolve: defender rolls 2D6, picks best.  
-1. **Combat Result Table:**  
+   - If Resolve is equal: attacker rolls 1D6 and uses the result.
+   - If attacker has higher Resolve: attacker rolls 2D6, picks their preferred result.
+   - If defender has higher Resolve: defender rolls 2D6, picks their preferred result.
+1. **Combat Result Table:**
 
-   | Roll | Result       | Effect                                  |  
-   | ---- | ------------ | --------------------------------------- |  
-   | 1    | Repulsed     | Attacker takes 1 hit                    |  
-   | 2    | Brutal Clash | Both attacker and defender take 1 hit  |  
-   | 3-4  | Forced Back  | Defender pushed back 1 base width       |  
-   | 5    | Hit & Hold   | Defender takes 1 hit                    |  
-   | 6    | Breakthrough | Defender takes 1 hit and is pushed back |  
+   | Roll | Result       | Effect                                  |
+   | ---- | ------------ | --------------------------------------- |
+   | 1    | Repulsed     | Attacker takes 1 hit                    |
+   | 2    | Brutal Clash | Both attacker and defender take 1 hit   |
+   | 3-4  | Forced Back  | Defender pushed back 1 base width       |
+   | 5    | Hit & Hold   | Defender takes 1 hit                    |
+   | 6    | Breakthrough | Defender takes 1 hit and is pushed back |
 
-1. Pushbacks must move directly away. If unable (blocked), defender takes 1 hit instead.
+1. Pushbacks must move directly away 1 base width.
+1. If a unit is pushed back into another friendly unit, and it is not a skirmisher, the other unit is also pushed back the same distance.
+1. If a unit is pushed back into an enemy unit, or into impassable or rough terrain, or off the table, it is **destroyed**.
 
----
+### 7.1 Resolve Modifiers
 
-## 8. FALL BACK (VOLUNTARY WITHDRAWAL)  
-1. Declare Fall Back instead of attacking.  
-1. Roll D6: **3+ to succeed**.  
-1. Modifiers:  
-   - −1 per enemy engaged.  
-   - −1 if Shaken/Disrupted.  
-   - +1 if supported by unengaged friendly unit.  
-1. Success: move up to **1 base width** away, facing enemy.  
-1. Failure: remain in place and become **Shaken**.
-
----
-
-## 9. RALLY  
-1. Unit must be Shaken or Disrupted and **not engaged**.  
-1. Roll D6:  
-   - 4+: Recover 1 state (Disrupted → Shaken or Shaken → Fresh).  
-   - +1 if within 1 base width of commander or camp.
-
----
-
-## 10. COMMANDERS (OPTIONAL)  
-1. Commanders provide +1 to Rally tests.  
-1. May grant one nearby unit an **extra activation** per turn.  
-1. If destroyed, all friendly units must pass a Rally test or become Shaken.
-
----
-
-## 11. VICTORY  
-1. Win by:  
-   - Destroying/routing a set number of enemy units (e.g., 50%).  
-   - Or controlling key objectives at game end.
-
----
-
-## 12. FUTURE EXPANSIONS  
-1. Add scenarios, unit traits, terrain rules, campaigns, etc.  
-1. Include skirmishers, cavalry, artillery in later modules.
-
----
+1. **Cohesion State:**
+   - Fresh: no modifier
+   - Shaken: −1 Resolve
+   - Disrupted: −2 Resolve
+1. **Support:** +1 Resolve per supporting friendly unit (side or rear)
+1. **Flank Attack:** +1 Resolve for attacker
+1. **Rear Attack:** +2 Resolve for attacker
